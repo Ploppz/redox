@@ -1,9 +1,9 @@
 export PATH initfs:/bin
-vesad T T G
-stdio display:1
-ps2d
 pcid /etc/pcid.toml
 redoxfs disk:0 file
+vesad T T G
+ps2d
+stdio display:1
 cd file:
 export PATH file:/bin
 run.d /etc/init.d
